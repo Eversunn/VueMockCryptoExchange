@@ -1,14 +1,17 @@
 <script>
-import  Input  from "./components/input.vue";
+import  numberInput  from "./components/input.vue";
 import  Selector  from "./components/selector.vue";
 
-export default { Input,Selector}
+export default {components: {
+    numberInput,
+    Selector,
+  }}
 </script>
 
 <template>
   <h1>Crypto Exchange</h1>
-  <Input />
-  <Selector />
+  <numberInput />
+  <Selector/>
 </template>
 
 <style >

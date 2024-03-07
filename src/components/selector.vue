@@ -1,19 +1,16 @@
 
-
-
 <template>
-    <div>
-        <h2>selector</h2>
         <ul>
             <li>BTC</li>
             <li>ETH</li>
             <li>USDT</li>
         </ul>
-    </div>
 </template>
 
 <script>
-export default {}
+export default {
+    
+}
 
 </script>
 
