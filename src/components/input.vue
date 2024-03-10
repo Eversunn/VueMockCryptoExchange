@@ -1,7 +1,7 @@
 
 
 <template>
-    <input type="number" @input="changeAmount($event.target.value)">
+    <input min="0" type="number" @input="changeAmount($event.target.value)">
 </template>
 <script>
 export default {

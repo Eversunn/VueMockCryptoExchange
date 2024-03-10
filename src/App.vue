@@ -29,8 +29,8 @@ export default {
   <h1>Crypto Exchange</h1>
   <numberInput />
   <div className="selector-box">
-    <Selector/>
-    <Selector/>
+    <Selector :setCrypto="setFirstCrypto"/>
+    <Selector :setCrypto="setSecondCrypto"/>
   </div>
 </template>
 
