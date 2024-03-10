@@ -1,9 +1,9 @@
 
 <template>
         <ul>
-            <li @click="selectItem('BTC')" :className="current =='BTC' ? 'active' : ''">BTC</li>
-            <li @click="selectItem('ETH')" :className="current =='ETH' ? 'active' : ''">ETH</li>
-            <li @click="selectItem('USDT')" :className="current =='USDT' ? 'active' : ''">USDT</li>
+            <li @click="selectItem('BTC')" :className="current == 'BTC' ? 'active' : ''">BTC</li>
+            <li @click="selectItem('ETH')" :className="current == 'ETH' ? 'active' : ''">ETH</li>
+            <li @click="selectItem('USDT')" :className="current == 'USDT' ? 'active' : ''">USDT</li>
         </ul>
 </template>
 
@@ -48,6 +48,8 @@ li{
 li:hover, li:active{
     background: rgb(228, 121, 121);
     cursor: pointer;
-
 }
+.active{background: rgb(228, 121, 121);
+    cursor: pointer;}
+
 </style>
